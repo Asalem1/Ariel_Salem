@@ -7,12 +7,12 @@ const app = express();
 
 /*Connecting the Database*/
 
-const connection = 'mongodb://thyme:thyme@ds133340.mlab.com:33340/orion-thyme';
+// const connection = 'mongodb://thyme:thyme@ds133340.mlab.com:33340/orion-thyme';
 
-mongoose.connect(connection);
-mongoose.connection.once('open', () => {
-  console.log('Ready to hack into the mainframe: ', connection);
-});
+// mongoose.connect(connection);
+// mongoose.connection.once('open', () => {
+//   console.log('Ready to hack into the mainframe: ', connection);
+// });
 
 /*Connecting the Server*/
 const port = process.env.PORT || 8000;
