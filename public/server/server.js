@@ -15,10 +15,15 @@ const app = express();
 // });
 
 /*Connecting the Server*/
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 
-app.use(express.static(__dirname + '../../public'));
+app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
+
+// app.get('/', function(req, res) {
+//   console.log('home!');
+//   res.sendfile(__dirname + '/index.html');
+// })
 
 app.listen(port, () => {
   console.log(`connected to port: ${port}
