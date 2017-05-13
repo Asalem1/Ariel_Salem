@@ -1,0 +1,12 @@
+/*-------------------------HOME-------------------------*/
+.carousel .item img{
+    margin: 0 auto;  /*Align slide image horizontally center*/
+}
+
+.item {
+  width: auto;
+  height: 1000px;
+  max-height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
