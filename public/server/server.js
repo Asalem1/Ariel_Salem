@@ -1,7 +1,7 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import mongo from 'mongo';
-import mongoose from 'mongoose';
+var express = require('express');
+var bodyParser = require('body-parser');
+var mongo = require('mongo');
+var mongoose = require('mongoose');
 
 const app = express();
 
@@ -20,10 +20,9 @@ const port = process.env.PORT || 3000;
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 
-// app.get('/', function(req, res) {
-//   console.log('home!');
-//   res.sendfile(__dirname + '/index.html');
-// })
+app.get('/', function(req, res) {
+  res.status(200).send('hello world!');
+})
 
 app.listen(port, () => {
   console.log(`connected to port: ${port}
