@@ -1,6 +1,7 @@
 angular.module('website', [
   'website.home',
-  'website.projects'
+  'website.projects',
+  'ngRoute'
 ])
 
 .config(($routeProvider) => {

@@ -21,7 +21,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
-  res.status(200).send('hello world!');
+  res.status(200).sendfile(__dirname + '/index.html');
 })
 
 app.listen(port, () => {
