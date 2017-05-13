@@ -1,6 +1,6 @@
 angular.module('website.projects', [])
 
-.controller('projectsController', function($scope, $location, Recipes) {
+.controller('projectsController', function($scope, $location) {
   // toggles Cooking tab visibility in the nav bar
   // Recipes.visible();
 

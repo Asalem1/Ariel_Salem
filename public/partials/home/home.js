@@ -1,6 +1,6 @@
 angular.module('website.home', [])
 
-.controller('homeController', function($scope, $location, Recipes) {
+.controller('homeController', function($scope, $location) {
   // toggles Cooking tab visibility in the nav bar
   // Recipes.visible();
 
