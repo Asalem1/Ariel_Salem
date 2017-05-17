@@ -1,12 +1,16 @@
 /*-------------------------HOME-------------------------*/
 .carousel .item img{
-    margin: 0 auto;  /*Align slide image horizontally center*/
+  margin: 0 auto;  /*Align slide image horizontally center*/
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) )
 }
 
 .item {
   width: auto;
-  height: 1000px;
-  max-height: 1000px;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 100%;
+  max-height: 100%;
 }
