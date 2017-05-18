@@ -1,6 +1,7 @@
 angular.module('website', [
   'website.home',
   'website.projects',
+  'website.about',
   'ngRoute'
 ])
 
@@ -12,6 +13,10 @@ angular.module('website', [
   })
   .when('/projects', {
     templateUrl: 'partials/projects/projects.html',
+    controller: 'projectsController'
+  })
+  .when('/about', {
+    templateUrl: 'partials/about/about.html',
     controller: 'projectsController'
   })
   .otherwise('/', {

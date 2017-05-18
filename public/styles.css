@@ -1,4 +1,21 @@
+/*-------------------------NAVBAR-------------------------*/
+
+.breadcrumb {
+  background-color: #F4EDFE;
+}
+
+.nav-selection {
+  font-family: 'Quicksand', cursive;
+  font-size: 35px;
+}
+
+/*overrides the default style*/
+.breadcrumb>li+li:before {
+  color: #F4EDFE !important;
+}
+
 /*-------------------------HOME-------------------------*/
+
 .carousel .item img{
   margin: 0 auto;  /*Align slide image horizontally center*/
   border-radius: 5px;
@@ -13,4 +30,23 @@
   width: auto;
   height: 100%;
   max-height: 100%;
+}
+
+/*-------------------------HOME-------------------------*/
+
+h1 {
+  text-align: center;
+}
+
+.col, .row {
+  border: 2px red solid;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Quicksand', cursive;
+  font-size: 25px;
+}
+
+.profile {
+  max-width: 200px;
+  border-radius: 10px;
 }

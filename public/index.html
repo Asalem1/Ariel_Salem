@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; "> -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Comfortaa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Lobster+Two|Comfortaa" rel="stylesheet">
 
 
     <!-- jQuery -->
@@ -22,15 +22,19 @@
     <title>Ariel_Website</title>
   </head>
   <body ng-app="website">
+    <ol class="breadcrumb">
+      <li><a  class="nav-selection" href="#/">Home</a></li><!-- TODO: look into href-->
+      <li><a  class="nav-selection" href="#projects">Projects</a></li>
+      <li><a  class="nav-selection" href="#about">About Me</a></li>
+    </ol>
     <div ng-view></div>
     <!-- Angular Modules -->
     <script src="partials/home/home.js"></script>
     <script src="partials/projects/projects.js"></script>
+    <script src="partials/about/about.js"></script>
     <script src="/app.js"></script>
 
     <!-- Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--Axios-->
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </body>
 </html>

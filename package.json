@@ -19,6 +19,9 @@
   "homepage": "https://github.com/Asalem1/Ariel_Salem#readme",
   "dependencies": {
     "angular": "^1.6.4",
+    "angular-formly": "^8.4.1",
+    "angular-formly-templates-bootstrap": "^6.4.0",
+    "api-check": "^7.5.5",
     "body-parser": "^1.17.1",
     "bootstrap": "^3.3.7",
     "express": "^4.15.2",
