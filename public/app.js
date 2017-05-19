@@ -2,7 +2,9 @@ angular.module('website', [
   'website.home',
   'website.projects',
   'website.about',
-  'ngRoute'
+  'ngRoute',
+  // 'formly',
+  // 'formlyBootstrap'
 ])
 
 .config(($routeProvider) => {
